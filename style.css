@@ -116,6 +116,22 @@ a {
     /* border: 1px solid #000; */
     padding-top: 100px;
     margin: 0 40px;
+    position: relative;
+  }
+  .services > img:first-child {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    left: 10%;
+  }
+  .services > img:nth-child(2) {
+    /* width: 100%; */
+    position: absolute;
+    top: 16%;
+    right: 0;
+    left: 75%;
+    height: 41%;
   }
   .service_card > .service_texts > p:first-child {
     color: rgba(40, 43, 54, 0.8);
@@ -266,10 +282,42 @@ a {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 40px;
   }
   footer .part_1 {
     margin-bottom: 80px;
+  }
+  footer .part_2 > img {
+    margin-bottom: 60px;
+  }
+  footer .part_2_2 > p:first-child {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+    margin-bottom: 12px;
+  }
+  footer .part_2_2 > .stores {
+    display: flex;
+    /* border: 1px solid #000; */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    margin-top: 10px;
+  }
+  footer .part_2_2 > .stores img {
+    max-width: 48%;
+    height: auto;
+  }
+  footer > p:last-child {
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 22px;
   }
 }
 
